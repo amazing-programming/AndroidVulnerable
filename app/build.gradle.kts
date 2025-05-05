@@ -56,4 +56,21 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Retrofit para manejar solicitudes HTTP
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // OkHttp para logging (opcional)
+    implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
+
+    // Google Play Integrity
+    implementation("com.google.android.play:integrity:1.2.0")
+    
+    // Huawei HMS Safety Detect
+    implementation("com.huawei.hms:safetydetect:6.4.0.301")
+    
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.1")
 }

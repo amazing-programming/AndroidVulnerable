@@ -1,0 +1,20 @@
+package com.BeHive.appvulnerable.integrity.config
+
+/**
+ * Configuración para las APIs de verificación de integridad.
+ * Este es un archivo de ejemplo. Copia este archivo como IntegrityConfig.kt y
+ * completa los valores con tus propias credenciales.
+ */
+object IntegrityConfig {
+    /**
+     * Número de proyecto de Google Cloud para Google Play Integrity API.
+     * Obtenlo desde: https://console.cloud.google.com/
+     */
+    const val GOOGLE_CLOUD_PROJECT_NUMBER = 0L // Reemplaza con tu número de proyecto de Google Cloud
+    
+    /**
+     * ID de aplicación de Huawei para SafetyDetect.
+     * Obtenlo desde: https://developer.huawei.com/consumer/en/console
+     */
+    const val HUAWEI_APP_ID = "your_huawei_app_id" // Reemplaza con tu ID de app de Huawei
+}
